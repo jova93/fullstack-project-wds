@@ -16,7 +16,7 @@ router.get('/', async (req, res) => {
     }
 });
 
-//NEW AUTHOR ROUTER
+//NEW AUTHOR ROUTE
 router.get('/new', (req, res) => {
     res.render('authors/new', { author: new Author() });
 });
